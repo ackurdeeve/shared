@@ -1,6 +1,7 @@
 #!/bin/bash
 x=`python -V 2>&1 | awk -F " " '{print $2}' | cut -d "." -f1`
-python_check(){
+python_check()
+{
    if [ $x == 2 ];then
       echo "good bye"
       exit
@@ -10,7 +11,8 @@ python_check(){
     fi
 }
 
-python3_check(){
+python3_check()
+{
         if [ -f /usr/bin/python ];then
           mv /usr/bin/python /usr/bin/python3
         else
@@ -27,10 +29,10 @@ python3_check(){
            mv /usr/bin/python3 /usr/bin/python
            exit
         fi
-
 }
 
-python_version(){
+python_version()
+{
         cc=`python -V 2>&1 |cut -b 8`
         if [ $cc==2 ];then
             echo "哟西！修复完成"

@@ -29,6 +29,11 @@ Proxy Group:
       - 🇺🇸Kcptun
     type: select
 Rule:
+  - DOMAIN-SUFFIX,netflav.com,🇺🇸Kcptun
+#  - DOMAIN-SUFFIX,blizzard.com,🇺🇸Kcptun
+  - DOMAIN-SUFFIX,sharepoint.com,🇺🇸Kcptun
+  - DOMAIN-SUFFIX,paypal.com,🇺🇸Kcptun
+  - DOMAIN-SUFFIX,speedtest.net,🇺🇸Kcptun
   - DOMAIN-SUFFIX,ackurdeeve.com,DIRECT
   - DOMAIN-SUFFIX,apps.apple.com,😃SS->Kcptun
   - DOMAIN-SUFFIX,music.apple.com,DIRECT

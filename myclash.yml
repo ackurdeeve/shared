@@ -21,7 +21,7 @@ Proxy:
     type: ss
     server: 127.0.0.1
     port: "48989"
-    cipher: chacha20
+    cipher: xchacha20-ietf-poly1305
     password: "1982"
 Proxy Group:
   - name: 😃SS->Kcptun

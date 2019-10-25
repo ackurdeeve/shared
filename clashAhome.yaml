@@ -41,13 +41,10 @@ Proxy Group:
 Rule:
   - DOMAIN-SUFFIX,hostloc.com,DIRECT
   - DOMAIN-SUFFIX,acgvideo.com,DIRECT
-  - DOMAIN-SUFFIX,mediafire.com,usKcptun
-#  - DOMAIN-SUFFIX,live.com,usKcptun
-  - DOMAIN-SUFFIX,netflav.com,usKcptun
-#  - DOMAIN-SUFFIX,blizzard.com,usKcptun
-  - DOMAIN-KEYWORD,mircosoft,usKcptun
-#  - DOMAIN-SUFFIX,sharepoint.com,usKcptun
-  - DOMAIN-SUFFIX,speedtest.net,usKcptun
+  - DOMAIN-SUFFIX,mediafire.com,SS->Kcptun
+  - DOMAIN-SUFFIX,netflav.com,SS->Kcptun
+  - DOMAIN-KEYWORD,mircosoft,SS->Kcptun
+  - DOMAIN-SUFFIX,speedtest.net,SS->Kcptun
   - DOMAIN-SUFFIX,ackurdeeve.com,DIRECT
   - DOMAIN-SUFFIX,apps.apple.com,SS->Kcptun
   - DOMAIN-SUFFIX,music.apple.com,DIRECT

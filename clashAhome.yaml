@@ -8,15 +8,13 @@ secret: ""
 dns:
   enable: true
   ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
   nameserver:
     - https://rubyfish.cn/dns-query
-    - https://1.1.1.1/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google.com/resolve
   fallback:
-    - https://rubyfish.cn/dns-query
-    - tls://dns.rubyfish.cn:853
     - tls://dns.google
+    - https://1.1.1.1/dns-query
 Proxy:
   - name: Homenote
     type: ss

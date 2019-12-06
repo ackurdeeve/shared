@@ -33,6 +33,7 @@ Proxy Group:
       - Kcptun
     type: select
 Rule:
+- DOMAIN-SUFFIX,githubusercontent.com,Proxy
 - DOMAIN-KEYWORD,microsoft,Proxy
 - DOMAIN-SUFFIX,nexusmods.com,Proxy
 - DOMAIN-SUFFIX,dioimg.net,REJECT

@@ -37,7 +37,6 @@ Proxy Group:
     type: fallback
     interval: 300
 Rule:
-- DOMAIN,google.com,Proxy
 - DOMAIN-SUFFIX,t66y.com,Proxy
 - DOMAIN,www.google.com,Proxy
 - DOMAIN-KEYWORD,facebook,Proxy

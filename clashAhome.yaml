@@ -11,6 +11,7 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   nameserver:
+    - 119.29.29.29
     - https://rubyfish.cn/dns-query
   fallback:
     - tls://dns.google
